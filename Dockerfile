@@ -1,4 +1,4 @@
-FROM php:7.3.5-cli
+FROM php:7.4.3-cli
 
 LABEL maintainer "Nino Treyssat-Vincent <nino+docker@treyssatvincent.fr>"
 
