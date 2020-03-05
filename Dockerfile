@@ -4,7 +4,7 @@ LABEL maintainer "Nino Treyssat-Vincent <nino+docker@treyssatvincent.fr>"
 
 # libpq-dev is required by pdo_pgsql php module
 RUN apt-get update && apt-get install -y \
-   libpq-dev \
+   libpq-dev git zip unzip \
    && rm -rf /var/lib/apt/lists/*
 
 # composer
